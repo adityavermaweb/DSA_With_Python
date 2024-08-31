@@ -52,3 +52,28 @@ person1=Person("Amit",28)
 person2=Person("Shubham",22)
 print(person1.getName(),person1.getAge())
 print(person2.getName(),person2.getAge())
+
+
+
+
+
+# Q-3)Define a class Circle with instance object variable radius.
+# Provide setter and getter for radius. Also define getArea() and getCircumference() methods.
+
+
+# -----------Solution----------->
+
+class Circle:
+    def __init__(self,radius=None):
+        self.radius=radius
+    def setRadius(self,radius):
+        self.radius=radius
+    def getRadius(self):
+        return self.radius
+    def getArea(self):
+        return(3.14*self.radius*self.radius)
+    def getCircumference(self):
+        return(2*3.14*self.radius)
+c=Circle()
+c.setRadius(4)        
+print(c.getRadius(),c.getArea(),c.getCircumference())
