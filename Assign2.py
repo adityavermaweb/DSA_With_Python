@@ -34,7 +34,7 @@ print(e2.getEmpid(),e2.getName(),e2.getSalary())
 # Q-2) Define a python class Person will instance object variables name and age. Set Instance object variables in __int__() method.
 # Also define show() method to display name and age of a person.
 
-# ----------Solution---------->
+# -----------Solution---------->
 
 class Person:
     def __init__(self,name=None, age=None):
