@@ -1,3 +1,5 @@
+# -------------Question--------------?
+
 # 1) Define a class Node to describr a node of a singly linked list.
 # 2) Define a class SLL to implement Singly Linked List with __init__() method to crrate and initialise start reference variable.
 # 3) Define a method is_empty() to check if the linked list is empty in SLL class.
