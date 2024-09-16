@@ -12,3 +12,7 @@
 # 10) In class DLL, define a method delete_first() to delete first element from the list ?
 # 11) In class DLL, define a method delete_last() to delete last element from the list ?
 # 12) In class DLL, define a method delete_item() to delete specified element from the list ?
+
+
+
+# ------------Solution-------------------->
